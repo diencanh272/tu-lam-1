@@ -534,7 +534,7 @@ a {
 
 .popular-courses {
   display: flex;
-  padding: 389px 0 264px;
+  padding: 389px 0 130px;
   align-items: center;
   justify-content: space-around;
 }
@@ -556,7 +556,7 @@ a {
 
 /* ******Blog***** */
 .main .blog {
-  padding-bottom: 130px;
+  padding: 130px 0;
   display: flex;
   justify-content: space-between;
 }
