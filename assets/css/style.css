@@ -4,6 +4,7 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -336,18 +337,14 @@ a {
 }
 
 .review .avatar-quantiti {
-  display: block;
-  width: 33px;
-  height: 33px;
-  border-radius: 50%;
-  background: #1ebfc1;
-}
-
-.review .avatar-quantiti {
   display: flex;
   color: #fff;
   justify-content: center;
   align-items: center;
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  background: #1ebfc1;
   font-size: 1rem;
   font-weight: 500;
 }
@@ -671,6 +668,7 @@ a {
 .btn-join {
   border-radius: 14px;
   background: #2ac9bf;
+  margin-right: 76px;
 }
 
 /* *****Footer***** */
@@ -705,6 +703,7 @@ a {
   max-width: 115px;
   align-items: center;
   padding: 9px 0;
+  cursor: pointer;
 }
 
 .footer ul .social .item-social {
@@ -712,6 +711,11 @@ a {
   font-size: 1.6rem;
   line-height: 1.5;
   padding-left: 9px;
+}
+
+.footer ul .social .item-social:hover,
+.footer .column .item:hover {
+  opacity: 0.8;
 }
 
 .footer .main-content .copyright {
